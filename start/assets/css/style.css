@@ -1,0 +1,75 @@
+/* GENERAL */
+*,
+*::before,
+*::after {
+     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+/* font-family: 'Poppins', sans-serif; */
+
+/* HEADER */
+header {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-inline: auto;
+    
+}
+
+.header__logo {
+    background-color: black;
+    height: ;
+}
+
+.logo {
+    width: 35vw;
+
+}
+header h1 {
+    font-size: 2em;
+    font-weight: 700;
+    color: rgb(0, 128, 232);
+}
+
+/* MAIN */
+
+/* ASIDE */
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
