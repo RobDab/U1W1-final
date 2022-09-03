@@ -5,13 +5,21 @@
      box-sizing: border-box;
 }
 
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65em;
+    font-size: 1.2rem;
     color: #393d41
 }
-/* font-family: 'Poppins', sans-serif; */
+
+body h1,h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3
+}
 
 /* HEADER */
 header {
@@ -22,7 +30,7 @@ header {
 
 .header__logo {
     background-color: black;
-    height:7em ;
+    height:6.2rem ;
     padding-top: 1.6em;
 }
 
@@ -30,12 +38,19 @@ header {
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 25rem;
     padding:2em
 }
 
 .banner p {
     margin-top: 1.5em;
+}
+
+.banner h1 {
+    line-height: 1em;
+    font-size: 2em;
+    font-weight: 700;
+    color: rgb(0, 128, 232);
 }
 
 
@@ -44,11 +59,6 @@ header {
     width: 35%;
     
 
-}
-header h1 {
-    font-size: 2em;
-    font-weight: 700;
-    color: rgb(0, 128, 232);
 }
 
 .btn__partiamo {
@@ -61,10 +71,37 @@ header h1 {
     border-style: none;
     border-radius: 5px;
     color: white;
-    margin-top: 3em;
+    margin-top: 1.5em;
 }
 
 /* MAIN */
+
+.vantaggi {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.vantaggi h2 {
+    font-weight: 700;
+    margin-bottom: 0.7em;
+}
+
+.vantaggi p {
+    margin-bottom: 1.5em;
+}
+
+.vantaggi div {
+    height:0;
+    width: 50%;
+    padding-bottom:50%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url(../images/notebook.jpg);
+    margin-bottom: 1.5em;
+    margin-inline: auto;
+}
 
 /* ASIDE */
 
