@@ -66,12 +66,13 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 1em;
-    width: 30vw;
+    width: 40vw;
     padding:1em;
     border-style: none;
     border-radius: 5px;
     color: white;
     margin-top: 1.5em;
+    text-transform: uppercase;
 }
 
 /* MAIN */
@@ -80,6 +81,8 @@ header {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 .vantaggi h2 {
@@ -87,7 +90,7 @@ header {
     margin-bottom: 0.7em;
 }
 
-.vantaggi p {
+.vantaggi p :not :last-of-child {
     margin-bottom: 1.5em;
 }
 
@@ -103,9 +106,106 @@ header {
     margin-inline: auto;
 }
 
+.garantisce {
+    text-align: center;
+    background-color: #e22d0e;
+    color: white;
+    padding-top: 1.8em;
+    padding-bottom: 1.5em;
+    
+}
+
+.garantisce h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.8em;
+    margin-bottom: 1.5em;
+}
+
+.garantisce p:first-child {
+    font-style: italic;
+    margin-bottom: 1.5em;
+}
+
+.garantisce cite {
+    font-size: 1.2em;
+}
+
+.garantisce p:last-of-type {
+    font-size: 0.8em;
+}
+
 /* ASIDE */
+aside {
+    padding-inline: 1em;
+    padding-top: 1.5em;
+}
+
+
+
+aside div {
+    text-align: center;
+    margin-inline: auto;
+    margin-bottom: 1em;
+    padding-bottom: 1.5em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dee1e3;
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+
+aside h2 {
+    font-weight: 700;
+}
+
+aside div img {
+    width: 100%;
+    
+}
+
+aside p {
+    margin-bottom: 1.5em;
+}
 
 /* FOOTER */
+footer {
+    text-align: center;
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    padding: 1.5em
+    
+}
+
+footer h2 {
+    color: #c8e7f0;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+
+}
+
+footer li {
+    list-style-type: none;
+    
+}
+
+footer a {
+    color: #c8e7f0;
+    text-decoration: none;
+    
+}
+
+footer div {
+    width: 60vw;
+    margin-inline: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: #c8e7f0;
+}
 
 
 
