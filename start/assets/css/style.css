@@ -197,6 +197,11 @@ footer a {
     
 }
 
+footer a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
 footer div {
     width: 60vw;
     margin-inline: auto;
