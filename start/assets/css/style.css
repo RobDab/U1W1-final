@@ -94,7 +94,7 @@ header {
     margin-bottom: 1.5em;
 }
 
-.vantaggi div {
+.vantaggi div { /* height:0;width: 50%;padding-bottom:50%;  SQUADRANO IL DIV , IDK why */
     height:0;
     width: 50%;
     padding-bottom:50%;
